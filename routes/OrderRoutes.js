@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {getOrders, getOrder, createOrder, updateOrder, deleteOrder} = require("../controllers/orderController");
+const {getOrders, getOrder, createOrder, updateOrder, deleteOrder} = require("../controllers/OrderController");
 const {protect} = require('../middleware/auth');
 
 router.route('/')
